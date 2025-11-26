@@ -104,7 +104,7 @@ Correct example:
 
 ---
 
-## ⭐ 4. Rating of My Work Today
+## ⭐ 4. Rating of My Work Today BY ChatGPT
 
 | Skill Area | Rating | Notes |
 |-----------|--------|-------|
