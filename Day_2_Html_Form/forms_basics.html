@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- the top heading  -->
+    <header id="top">
+        <h1>Form Practice</h1>
+        <hr />
+        <a href="#personal">Personal</a> |
+        <a href="#gend">Gender</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#cntry">Country</a> |
+        <a href="#msge">message</a> |
+        <a href="#upload">Upload</a> |
+        <a href="#btn">Buttons</a> |
+        <a href="#foot">foot</a> |
+        <!-- just for search bar to be at right end and only using HTMl not other tools  -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Search Here"> <button>Search</button>
+        <hr />
+    </header>
+    <!-- form section -->
+    <section>
+        <form method="post">
+            <!-- personal info -->
+            <fieldset id="personal">
+                <legend>Personal Information</legend>
+                <!-- name input --><br />
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your Name here" required maxlength="15"">
+                <!-- email input --><br />
+                <label for=" email">E-mail</label>
+                <input type="email" id="email" placeholder="a@b.c" required>
+                <!-- password input --><br />
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" placeholder="Password" required>
+                <!-- age input --><br />
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="22" max="65" min="18">
+                <!-- dob input --><br />
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob">
+            </fieldset>
+            <!-- Gender info -->
+            <fieldset id="gend">
+                <legend>Gender</legend>
+                <!-- Gender radio -->
+                <p>Please Select you Gender</p>
+                <input type="radio" id="male" name="gen" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gen" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gen" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+            <!-- Skills -->
+            <fieldset id="skills">
+                <legend>Skills</legend>
+                <input type="checkbox" id="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="js">
+                <label for="js">JavaScript</label>
+                <input type="checkbox" id="react">
+                <label for="react">React</label>
+                <input type="checkbox" id="db">
+                <label for="db">DataBase</label>
+            </fieldset>
+            <!-- Country  -->
+            <fieldset id="cntry">
+                <legend>Country</legend>
+                <select name="" id="country">
+                    <option value="none">Select Country</option>
+                    <option value="india">India</option>
+                    <option value="uk">UK</option>
+                    <option value="japan">japan</option>
+                    <option value="usa">USA</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <!-- message -->
+            <fieldset id="msge">
+                <legend>Message</legend>
+                <textarea name="" id="msg" cols="70" rows="5" placeholder="Your Message Here....."
+                    maxlength="1000"></textarea>
+            </fieldset>
+            <!-- File Upload -->
+            <fieldset id="upload">
+                <legend>Files</legend>
+                <input type="file" name="" id="file">
+            </fieldset>
+            <!-- buttons -->
+            <fieldset id="btn">
+                <legend>Submit & Reset</legend>
+                <a href="./confirmation.html">
+                    <button type="button">Submit</button>
+                </a>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+    <!-- the End footer -->
+    <footer id="foot">
+        <hr />
+        <p>copyright since 2025</p>
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+
+</html>
