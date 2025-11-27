@@ -14,8 +14,9 @@ Every day includes:
 
 ## 🚀 Status
 - Day 01 – ✔️ Completed  
-- Day 02 – ✔️ Ongoing  
-- Day 03 → Day 30 – Coming Soon  
+- Day 02 – ✔️ Completed
+- Day 03 - ✔️ Completed
+- Day 04 → Day 30 – Coming Soon  
 
 ## ✨ Philosophy
 Consistency > Motivation  
