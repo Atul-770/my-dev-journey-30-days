@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 /* Profile Card and its components ---------------------------------------------------------------*/
 .profile-card{
     height: 200px;
@@ -60,4 +60,5 @@
 .product-card button:hover{
     background-color: #ee12ee;
     border-color: pink;
+
 }
