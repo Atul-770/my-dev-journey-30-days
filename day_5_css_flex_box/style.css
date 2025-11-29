@@ -1,0 +1,104 @@
+.btn-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btn-row button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.btn-row button:hover{
+    background: white;
+    color: black;
+}
+
+/* card-row */
+.card-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.card-row .common{
+    width: 250px;
+    border: 2px solid rgb(71, 60, 60);
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.card-row .common img {
+    width: 100%;
+    height: 40%;
+}
+.card-row .common button{
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+
+.card-row .common button:hover{
+    box-shadow: 0 4px 8px rgba(215, 184, 184, 0.1);
+    background: #000;
+    color: white;
+    border: 1px solid rgba(215, 184, 184, 0.1);
+    transition: 0.2s ease;
+}
+
+/* nav bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+.nav .link a, .contact a{
+    text-decoration: none !important;
+    color:black;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.nav .link a:hover, .contact:hover{
+    border-bottom: 2px solid black;
+    transition: 0.3s ease;
+}
+.nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* hero setion */
+.hero{
+    font-family: sans-serif;
+    /* text-align: center; */
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero .hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hero button{
+    padding: 15px 30px;
+    border: 2px solid grey;
+    color: white;
+    background: #000;
+    border-radius: 4px;
+}
+
+/* paragraph betwwn line */
+.seprator-para{
+    text-align: center;
+    font-family: sans-serif;
+}
