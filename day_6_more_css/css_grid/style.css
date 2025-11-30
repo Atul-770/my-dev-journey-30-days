@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.b1 {
+    background: blue;
+}
+
+.b2 {
+    background: pink;
+}
+
+.b3 {
+    background: green;
+}
+
+.b4 {
+    background: red;
+}
+
+/* ONLY FOR THE FIRST GRID (3 columns fixed height) */
+.container .c1-box {
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* GRID 2 — PROPER SQUARES */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 500px;
+        margin: auto;
+}
+
+.container2 .box {
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    color: white;
+}
+
+/* final challenge */
+.images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap:20px;
+    max-width: 100%;
+    margin: auto; 
+}
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
