@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.team-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.team-container .team{
+    border: 2px solid black;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.36);
+    transition: 0.3s ease;
+}
+
+.team-container .team:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.56);
+}
+
+.team-container .team img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.team-container .team .content p:nth-child(2){
+    font-style: italic;
+}
+.team-container .team .content button{
+    transition: 0.3s ease;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.team-container .team .content button:hover{
+    transform: scale(1.004);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.351);
+}
