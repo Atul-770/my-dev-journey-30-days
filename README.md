@@ -21,7 +21,8 @@ Every day includes:
 - Day 05 - ✔️ Completed
 - Day 06 - ✔️ Completed
 - Day 07 - ✔️ Completed
-- Day 08 → Day 30 – Coming Soon  
+- Day 08 - ✔️ Completed
+- Day 09 → Day 30 – Coming Soon  
 
 ## ✨ Philosophy
 Consistency > Motivation  
