@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+nav{
+    max-height: 70px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+nav .logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    transition: 0.4s ease;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+nav button{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: 0.4s ease;
+}
+
+nav button:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Card section */
+.pricing{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-heading{
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+.card-container .card{
+    flex: 1;
+    text-align: left;
+    vertical-align: bottom ;
+    min-height: 400px;
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-container .card:nth-child(2){
+    transform: scale(1.05);
+    border: 1px solid gray;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card-container .card h2{
+    padding: 20px 0;
+}
+.card-container .card h2 span{
+    font-size: 0.5em;
+    vertical-align: bottom;
+}
+
+.card-container .card button{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 0.4s ease;
+}
+.card-container .card button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.card-container .card ul{
+    margin: 0 auto;
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.card-container .card ul li::before{
+    content: '✓';
+}
+
+.prev-plan{
+    font-size: smaller;
+    padding: 20px 0 0 0;
+}
+.prev-plan::before{
+    content: '🌟';
+}
+
+.prev-plan2{
+    font-size: smaller;
+    padding: 20px 0 0 0;
+}
+
+.prev-plan2::before{
+    content: '💎';
+}
+
+/* footer  ----------------------------- */
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr ;
+    padding: 20px 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer a{
+    transition: 0.2s ease;
+}
+
+footer a:hover{
+    cursor: pointer;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
