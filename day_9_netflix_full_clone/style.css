@@ -1,0 +1,291 @@
+/* Netflix clone */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    z-index: -20;
+    background: #000;
+}
+
+.container{
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    /* border: 2px solid green; */
+}
+
+header nav .logo img{
+    width: 148px;
+}
+
+nav button{
+    padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* bg image */
+
+.bg-container{
+    background: 
+                radial-gradient(circle,
+                    rgba(0,0,0,0.6) 0%,
+                    rgba(0,0,0,0.6) 100%) ,url("./netflix-background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+/* hero section */
+.hero{
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    /* font-size: 1.5em; */
+}
+
+.hero h1{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.hero p:nth-child(2){
+    font-weight: 600;
+}
+
+.hero p:nth-child(3){
+    font-size: 1em;
+}
+
+.input{
+    /* border: 1px solid white; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input input{
+    width: 60%;
+    padding: 20px 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.input button{
+    font-weight: 800;
+    /* padding: 20px 1px; */
+    padding: 20px 0;
+    width: 39%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+}
+
+/* price card section */
+
+.price-card{
+    display: flex;
+    background: #000;
+    color: white;
+    height: 25vh;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    z-index: -5;
+}
+.price-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.price-card-content{
+    padding: 20px 30px;
+    width: 90%;
+    /* border: 1px solid grey; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left,
+    rgb(38, 4, 80), rgb(8, 2, 46));
+}
+.price-card-content button{
+    padding: 10px 20px;
+    background-color: rgb(33, 33, 88);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.price-card:hover{
+    transform: scale(1.01);
+    /* z-index: -10; */
+}
+/* trending */
+.trending{
+    height: 50vh;
+    color: white;
+}
+
+.trending-cards{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.trending .trending-cards .t-card{
+    flex: 1;
+}
+.t-card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* cards */
+.more{
+    min-height: 40vh;
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+    padding: 20px 0px;
+}
+.c1{
+    flex: 1;
+    border-radius: 15px;
+    background: linear-gradient(to left,
+                rgb(38, 4, 80), rgb(8, 2, 46));
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-icon{
+    width: 100%;
+    display: flex;
+    /* align-content: flex-end; */
+    justify-content: flex-end;
+}
+
+.card-icon img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+/* faq */
+.faq{
+    color: white;
+    height: 50vh;
+}
+
+.faq-details{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+details{
+    flex: 1;
+    /* border: 1px solid white; */
+    padding: 20px 0;
+    /* border-radius: 10px; */
+    background: rgb(74, 74, 74);
+}
+
+summary,details p{
+    padding: 5px 10px;
+}
+
+/* mail */
+.mail{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.mail p{
+    padding: 20px 0;
+}
+
+.input input::placeholder{
+    color: white;
+}
+
+/* footer */
+footer{
+    height: 50vh;
+    color: white;
+}
+
+.links{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.l1 a{
+    text-decoration: underline;
+    color: white;
+}
+
+footer select{
+    padding: 5px 20px ;
+}
+footer p{
+    padding: 10px 0;
+}
