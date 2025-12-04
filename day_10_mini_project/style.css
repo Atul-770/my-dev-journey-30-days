@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F4F6;
+    color: #1D4ED8;
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header nav{
+    padding: 20px 0;
+    min-width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav button{
+    background: #3B82F6;
+        color: white;
+    padding: 8px 12px ;
+    border: none;
+    border-radius: 5px;
+}
+
+/* hero section */
+.hero-container{
+    min-height: 85vh;
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-left h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.hero-left .btns button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-left .btns button:nth-child(1){
+    background: #3B82F6;
+    color: white;
+    border: 1px solid #3B82F6;
+}
+.hero-left .btns button:nth-child(1):hover{
+    background-color: white;
+    color: #3B82F6;
+}
+.hero-left .btns button:nth-child(2){
+    color: #3B82F6;
+    border: 1px solid #3B82F6;
+}
+.hero-left .btns button:nth-child(2):hover{
+    color: white;
+    background-color: #3B82F6;
+}
+
+.hero-right{
+    flex:1;
+    padding: 20px;
+}
+
+.hero-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* feature */
+.feature{
+    padding: 20px 0;
+}
+.fea-cards{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 10px;
+
+}
+.card-1{
+    flex: 1;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(146, 143, 143, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* product */
+.product{
+    width: 100%;
+
+}
+.product h2{
+    padding: 20px 0;
+}
+
+.product-rectangle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(146, 143, 143, 0.7);
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+.left-mockup{
+    width: 80%;
+}
+.left-mockup img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.right-text{
+    /* flex: 1; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-text h3{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+/* testinomial */
+.testino{
+    padding: 20px 0;
+}
+
+.t-cards{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.c1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border:2px solid  #1D4ED8; */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(146, 143, 143, 0.7);
+}
+
+.c1 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* cta banner */
+.cta-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    background-color: #3B82F6;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.cta-content h3,p{
+    background-color: #3B82F6;
+    color: white;
+}
+
+.cta-banner button{
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #3B82F6;
+    border-radius: 5px;
+    font-size: 0.7em;
+    font-weight: 700;
+    border: 1px solid rgb(146, 143, 143);
+}
+
+footer{
+    height: 40vh;
+    padding: 20px 0;
+}
+
+.links{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.l1 a{
+    text-decoration: none;
+    cursor: pointer;
+}
