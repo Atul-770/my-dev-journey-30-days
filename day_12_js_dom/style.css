@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* section hero*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero .left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.left .btn button{
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hero .right{
+    flex: 2;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.hero .right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    padding: 20px 0;
+}
+
+.card h1{
+    padding: 10px 0;
+}
+
+.card .card-cont{
+    display: flex;
+    gap: 10px;
+}
+
+.card .card-cont .c1{
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.59);
+}
+
+.c1 img{
+    width: 100%;
+}
+
+.c1 .c-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.c1 .c-content button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+footer .foot-head{
+    padding: 20px 0 0 0;
+}
+
+.foot-links{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.foot-links .li ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot-bottom{
+    padding: 10px 0;
+}
