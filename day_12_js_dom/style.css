@@ -71,6 +71,19 @@ nav button{
     padding: 20px 0;
 }
 
+.heading{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading button{
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
 .card h1{
     padding: 10px 0;
 }
@@ -82,10 +95,10 @@ nav button{
 
 .card .card-cont .c1{
     width: 300px;
-    /* border: 2px solid black; */
+    border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.59);
+    /* box-shadow: 0 0 12px rgba(0, 0, 0, 0.59); */
 }
 
 .c1 img{
@@ -126,4 +139,9 @@ footer .foot-head{
 
 .foot-bottom{
     padding: 10px 0;
+}
+
+/* classes for js  */
+.hov:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.607);
 }
