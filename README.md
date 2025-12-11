@@ -29,7 +29,8 @@ Every day includes:
 - Day 13 - ✔️ Completed
 - Day 14 - ✔️ Completed
 - Day 15 - ✔️ Completed
-- Day 16 → Day 30 – Coming Soon  
+- Day 16 - ✔️ Completed
+- Day 17 → Day 30 – Coming Soon  
 
 ## ✨ Philosophy
 Consistency > Motivation  
